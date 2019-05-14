@@ -25,7 +25,7 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 # What model to download.
 # http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_kitti_2018_01_28.tar.gz
 # MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
-MODEL_NAME = 'faster_rcnn_resnet101_kitti_2018_01_28'
+MODEL_NAME = 'faster_rcnn_resnet50_coco'
 MODEL_FILE = MODEL_NAME + '.tar.gz'
 DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 
